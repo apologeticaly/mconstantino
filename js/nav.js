@@ -14,7 +14,7 @@ element.innerHTML = (`
                 <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link resume" href="/resume.pdf" tabindex="-1" aria-disabled="true">Resumé</a>
+                <a class="nav-link resume" href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resumé</a>
             </li>
         </ul>
 </nav>

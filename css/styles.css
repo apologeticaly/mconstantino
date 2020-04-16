@@ -105,3 +105,20 @@ h1 {
 .about-text {
     margin: 2rem 0 0 0;
 }
+
+.img {
+    max-width: 100%;
+    margin: 0 0 2rem 0;
+    
+}
+
+.back-to-home:hover {
+    text-decoration: none!important;
+    color: rgba(34, 34, 34, 0.404);
+}
+
+.caption {
+    font-size: 0.75rem;
+    text-align: right;
+    margin: 0.15rem 0 1rem 0;
+}
