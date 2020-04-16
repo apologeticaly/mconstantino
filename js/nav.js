@@ -3,7 +3,7 @@ var element = document.getElementById("insert-nav");
 element.innerHTML = (`
 <nav class="navbar navbar-expand-lg">
     <a class="navbar-brand" href="/">
-        <img class="logo" src="public/img/mini.png" alt="">
+        <img class="logo" src="img/mini.png" alt="">
     </a>
 
         <ul class="navbar-nav ml-auto" style="flex-direction: row; align-items: center;">
