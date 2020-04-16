@@ -1,0 +1,107 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 850px;
+    }
+}
+
+p {
+    color: #222222;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    padding: 2rem 0rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.logo {
+    height: 1.5rem;
+}
+
+.nav-link {
+    color: #222222!important;
+    font-weight: 500;
+    padding: 0;
+}
+
+.nav-item {
+    color: #222222!important;
+    padding: 0rem 0.5rem;
+}
+
+.resume {
+    color: #FFFFFF!important;
+    border-radius: 3px;
+    padding: 0.25rem 1rem!important;
+    background-color: #222222;
+}
+
+.resume:hover {
+    background-color: #222222;
+}
+
+
+h1 {
+    color: #222222;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 1.5rem;
+}
+
+.home {
+    margin: 2rem 0 0 0;
+}
+
+.sections {
+    margin: 1rem 0 0 0;
+}
+
+.section {
+    margin: 2rem 0 0 0;
+}
+
+.section > a {
+    text-decoration: none;
+}
+.project-link {
+    padding: 0.5rem 0.75rem;
+    max-width: 80%;
+    display: table;
+    margin: 0 0 0.5rem 0;
+    background-color: rgba(34, 34, 34, 0.062);
+    border-radius: 3px;
+}
+
+
+.project-link:hover {
+    background-color: rgba(34, 34, 34, 0.034);
+    border-radius: 3px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+
+    margin: 0 0 0.5rem 0;
+}
+
+.socials {
+    margin: 4rem 0 2rem 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.socials > p {
+    padding: 0 1rem 0 0;
+    margin: 0;
+}
+
+.project {
+    width: 100%;
+}
+
+.about-text {
+    margin: 2rem 0 0 0;
+}
