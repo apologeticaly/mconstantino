@@ -136,3 +136,15 @@ h1 {
     text-align: right;
     margin: 0.15rem 0 1rem 0;
 }
+
+.about-link {
+    color: #222222!important;
+    font-weight: bold;
+    background-color: rgba(34, 34, 34, 0.062);
+    padding: 0.25rem 0.3rem;
+}
+
+.about-link:hover {
+    text-decoration: none;
+    color: rgba(34, 34, 34, 0.404)!important
+}
