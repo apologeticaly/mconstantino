@@ -53,6 +53,10 @@ h1 {
     margin: 2rem 0 0 0;
 }
 
+.home-about {
+    margin: 0rem 0 0 0;
+}
+
 .sections {
     margin: 1rem 0 0 0;
 }
@@ -64,6 +68,7 @@ h1 {
 .section > a {
     text-decoration: none;
 }
+
 .project-link {
     padding: 0.5rem 0.75rem;
     max-width: 80%;
@@ -103,7 +108,7 @@ h1 {
 }
 
 .about-text {
-    margin: 2rem 0 0 0;
+    margin: 3rem 0 0 0;
 }
 
 .img {
@@ -112,9 +117,18 @@ h1 {
     
 }
 
+.icon {
+    height: 1.5rem;
+    margin: 1rem 1rem 2rem 0;
+}
+
+.icon:hover{
+    opacity: 35%;
+}
+
 .back-to-home:hover {
     text-decoration: none!important;
-    color: rgba(34, 34, 34, 0.404);
+    color: rgba(34, 34, 34, 0.404)!important;
 }
 
 .caption {
