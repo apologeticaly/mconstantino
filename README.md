@@ -1,6 +1,6 @@
 # mconstantino.com
 
-> 👨🏽‍💻 This is my personal portfolio website 
+👨🏽‍💻 This is my personal portfolio website 
 
 ![html5-image]
 ![css3-image]
