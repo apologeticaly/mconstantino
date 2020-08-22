@@ -2,9 +2,6 @@
 
 👨🏽‍💻 This is my personal portfolio website 
 
-![html5-image]
-![css3-image]
-![js-image]
 
 
 ![header.png]
@@ -31,7 +28,4 @@ If you see anything that appears broken, or would like clarifications on any pro
 
 
 <!-- Markdown link & img dfn's -->
-[html5-image]: https://img.shields.io/badge/-html5-orange
-[css3-image]: https://img.shields.io/badge/-css3-blue
-[js-image]: https://img.shields.io/badge/-javascript-yellow
 [header.png]: https://mconstantino.com/meta.png
