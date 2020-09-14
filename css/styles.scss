@@ -1,0 +1,158 @@
+$mc-black: #222222;
+$work-sans: 'Work Sans', sans-serif;
+$about-hover:  rgba(34, 34, 34, 0.404)!important;
+$black-link:  rgba(34, 34, 34, 0.062);
+$ml-1: 1rem;
+$ml-2: 2rem;
+$ml-3: 3rem;
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 850px;
+    }
+}
+
+p {
+    color: $mc-black;
+    font-size: 18px;
+    font-family: $work-sans;
+    font-weight: 400;
+}
+
+.navbar {
+    padding: 2rem 0rem;
+    font-family: $work-sans;
+}
+
+.logo {
+    height: 1.5rem;
+}
+
+.nav-link {
+    color: $mc-black!important;
+    font-weight: 500;
+    padding: 0;
+}
+
+.nav-item {
+    color: $mc-black!important;
+    padding: 0rem 0.5rem;
+}
+
+.resume {
+    color: #FFFFFF!important;
+    border-radius: 3px;
+    padding: 0.25rem 1rem!important;
+    background-color: $mc-black;
+}
+
+.resume:hover {
+    background-color: $mc-black;
+}
+
+
+h1 {
+    color: $mc-black;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 1.5rem;
+}
+
+.home {
+    margin-top: $ml-2;
+}
+
+.home-about {
+    margin: 0;
+}
+
+.sections {
+    margin-top: $ml-1;
+}
+
+.section {
+    margin-top: $ml-2;
+}
+
+.section > a {
+    text-decoration: none;
+}
+
+.project-link {
+    padding: 0.5rem 0.75rem;
+    max-width: 80%;
+    display: table;
+    margin: 0 0 0.5rem 0;
+    background-color: $black-link;
+    border-radius: 3px;
+}
+
+
+.project-link:hover {
+    background-color: rgba(34, 34, 34, 0.034);
+    border-radius: 3px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: $work-sans;
+
+    margin: 0 0 0.5rem 0;
+}
+
+.socials {
+    margin: 4rem 0 2rem 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.socials > p {
+    padding: 0 1rem 0 0;
+    margin: 0;
+}
+
+.project {
+    width: 100%;
+}
+
+.about-text {
+    margin-top: $ml-3;
+}
+
+.img {
+    max-width: 100%;
+    margin: 0 0 2rem 0;
+    
+}
+
+.icon {
+    height: 1.5rem;
+    margin: 1rem 1rem 2rem 0;
+}
+
+.icon:hover{
+    opacity: 35%;
+}
+
+.back-to-home:hover {
+    text-decoration: none!important;
+    color: $about-hover;
+}
+
+.caption {
+    font-size: 0.75rem;
+    text-align: right;
+    margin: 0.15rem 0 1rem 0;
+}
+
+.about-link {
+    color: $mc-black!important;
+    font-weight: bold;
+    background-color: $black-link;
+    padding: 0.25rem 0.3rem;
+}
+
+.about-link:hover {
+    text-decoration: none;
+    color: $about-hover;
+}
