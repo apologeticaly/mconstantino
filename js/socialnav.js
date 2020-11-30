@@ -16,8 +16,7 @@ function swapStyleSheet(sheet) {
 
 element.innerHTML = (`
 <div class="row socials">
-<a class="back-to-home" href="https://twitter.com/apologeticaly" target="_blank" rel="noopener noreferrer"><p class="back-to-home mb-0">Twitter</p></a>
-<a class="back-to-home" href="https://github.com/apologeticaly" target="_blank" rel="noopener noreferrer"><p class="back-to-home ml-3 mb-0">GitHub</p></a>
+<a class="back-to-home" href="https://github.com/apologeticaly" target="_blank" rel="noopener noreferrer"><p class="back-to-home mb-0">GitHub</p></a>
 <a class="back-to-home" href="https://www.linkedin.com/in/msconstantino/" target="_blank" rel="noopener noreferrer"><p class="back-to-home ml-3 mb-0">LinkedIn</p></a>
 </div>
 `);
